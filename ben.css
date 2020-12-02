@@ -34,7 +34,7 @@ nav{
 
 
 footer {
-    position:absolute;
+    position:relative;
     bottom:0px;
     padding:0% 10%;
     margin:0;
@@ -93,3 +93,6 @@ a:hover {
     text-decoration: underline;
 }
 
+#container a{
+    color: #7D8172;
+}
