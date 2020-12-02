@@ -25,13 +25,13 @@ body {
     /*--.onethird{float:left;}--*/
 }
 @media (min-width: 1000px) {
-  .one-column { width: 60%; font-size: 110%; }
+  .one-column { width: 70%; font-size: 110%; }
 }
 @media (min-width: 1100px) {
-  .one-column { width: 50%; font-size: 115%;}
+  .one-column { width: 70%; font-size: 115%;}
 }
 @media (min-width: 1450px) {
-  .one-column { width: 40%; font-size: 125%; }
+  .one-column { width: 70%; font-size: 115%; }
 }
 
 .two-column{
