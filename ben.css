@@ -13,21 +13,21 @@ body {
 
 #container{
     max-width:800px;
-    min-height:350px;
-    padding: 10% 0;    
+    min-height:350px; 
+    padding:10% 0%;
 }
 
 
 nav{
-    padding: 10% 0;
-    font-size:1.5em;
+    font-size:1.4em;
+    padding:10% 0%;
 }
 
 
 footer {
     position:fixed;
     bottom:0px;
-    padding: 10% 0;
+    padding:10% 0%;
     background-color:#266672;
     color:#fff;
     clear:both;
