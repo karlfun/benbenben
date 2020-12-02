@@ -93,10 +93,11 @@ li, li li{
 
 
 .onethird{
-    width:24%;
+    max-width:24%;
     float:left;
     margin-right:2em;
     min-width:190px;
+    min-height:190px;
 }
 
 footer p{
