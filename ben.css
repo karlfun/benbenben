@@ -3,6 +3,13 @@ body {
     width: 70%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size:70%;
+    background-color: #3C412B;
+}
+
+#content{
+    width:100%;
+    min-height:450px;
+    background-color: #CFE7B0;
 }
 
 #container{
