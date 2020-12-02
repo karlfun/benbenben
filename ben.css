@@ -33,6 +33,9 @@ nav{
     color: #7D8172;
 }
 
+#squeeze{
+    max-width:680px;
+}
 
 footer {
     position:relative;
