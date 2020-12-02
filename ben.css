@@ -71,6 +71,8 @@ footer {
     font-size: .8rem;
     padding:2em;
     color:#fff;
+    clear:both;
+    margin-top:3em;
 }
 
 ul.posts { 
