@@ -41,6 +41,10 @@ body {
 }
 
 
+nav, nav a{
+    color:#fff;
+}
+
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -67,8 +71,10 @@ p {
     font-size: 1rem;
     line-height: 1.3rem;
 }
+
+
+
 footer {
-    border-top: 3px solid #3C412B;
     background-color:#266672;
     font-size: .8rem;
 /*    padding-top:2em;
@@ -79,49 +85,4 @@ footer {
     height:7em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5rem;
-}
 
-ul.posts li {
-    list-style: none;
-}
-
-
-li, li li{
-    font-size:1rem;
-    line-height:2rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}/*--Make sure all fonts resize together and we don't get recursive resizing (2em x 2em or 1em of 1em etc)--*/
-
-
-.onethird{
-    max-width:24%;
-    float:left;
-    margin-right:2em;
-    min-width:190px;
-    min-height:190px;
-}
-
-footer p{
-}
-
-.nowrap {
-  white-space: nowrap;
-  word-break: keep-all;
-}
-
-
-table{
-    border-collapse:collapse;
-    margin-bottom:1.5em;
-}
-table, th, td{
-    border: 1px solid #d5d5d5;
-    padding:1.5em;
-}
-
-tr:nth-child(even) {
-    background-color: #d5d5d5;
-}
