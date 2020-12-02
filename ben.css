@@ -10,6 +10,12 @@ body {
 }
 
 
+nav{
+    font-size:1.2rem;
+    padding:0% 10%;
+    margin:0;
+}
+
 #headline{
     width:100%;
     height:auto;
@@ -24,13 +30,6 @@ body {
     margin:0;
     background:#CFE7B0;
     color: #7D8172;
-}
-
-
-nav{
-    font-size:1.2rem;
-    padding:0% 10%;
-    margin:0;
 }
 
 
