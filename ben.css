@@ -1,50 +1,66 @@
+/* -------- Layout Setup -------- */
+
+
+
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size:70%;
     background-color: #3C412B;
     color:white;
+    padding:0;
+    margin:0;
 }
 
-/*
-#content{
-    width:100%;
-    min-height:450px;
-    background-color: #CFE7B0;
-    /* margin: 60px auto; */
-}
-*/
 
 #container{
     max-width:800px;
     min-height:500px;
+    padding: 10% auto;    
 }
+
+
+nav{
+    padding: 10% auto;
+}
+
+
+footer {
+    padding: 10% auto;
+    background-color:#266672;
+    font-size: .8rem;
+    color:#fff;
+    clear:both;
+    width:100%;
+    height:7em;
+}
+
+
+
+
+/* -------- Media Queries -------- */
+
 
 
 
 @media (min-width: 400px) {
-  .one-column { width: 95%; font-size: 115%; } 
     nav ul li{display:block;}
-    /*--.onethird{float:none;clear:both;} --*/
 }
 @media (min-width: 850px) {
-  .one-column { width: 70%; font-size: 100%; }
-    /*--.onethird{float:left;}--*/
+    
 }
 @media (min-width: 1150px) {
-  .one-column { width: 70%; font-size: 115%;}
+    
 }
 
 
-.two-column{
-    width:45%;
-    float:left;
-}
 
+
+
+/* -------- Type Styles -------- */
 
 nav, nav a{
     color:#fff;
 }
-
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -71,18 +87,3 @@ p {
     font-size: 1rem;
     line-height: 1.3rem;
 }
-
-
-
-footer {
-    background-color:#266672;
-    font-size: .8rem;
-/*    padding-top:2em;
-    margin-top:3em; */
-    color:#fff;
-    clear:both;
-    width:100%;
-    height:7em;
-}
-
-
