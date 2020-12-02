@@ -15,20 +15,20 @@ body {
 #container{
     max-width:800px;
     min-height:350px; 
-    padding:10% 0%;
+    padding:0% 10%;
 }
 
 
 nav{
     font-size:1.4rem;
-    padding:10% 0%;
+    padding:0% 10%;
 }
 
 
 footer {
     position:absolute;
     bottom:0px;
-    padding:10% 0%;
+    padding:0% 10%;
     background-color:#266672;
     color:#fff;
     clear:both;
