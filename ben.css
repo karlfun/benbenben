@@ -5,9 +5,10 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     background-color: #3C412B;
-    color:white;
+    margin: 60px auto;
+    width: 70%;
+    color:#fff;
     padding:0;
-    margin:0;
 }
 
 
