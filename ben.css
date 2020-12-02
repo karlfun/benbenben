@@ -14,18 +14,19 @@ body {
 
 #container{
     max-width:800px;
-    min-height:500px;
-    padding: 10% auto;    
+    min-height:350px;
+    padding: 10% 0;    
 }
 
 
 nav{
-    padding: 10% auto;
+    padding: 10% 0;
+    font-size:1.5em;
 }
 
 
 footer {
-    padding: 10% auto;
+    padding: 10% 0;
     background-color:#266672;
     font-size: .8rem;
     color:#fff;
@@ -63,7 +64,6 @@ nav, nav a{
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -79,11 +79,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-}
+
