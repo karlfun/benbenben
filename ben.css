@@ -25,9 +25,10 @@ nav{
 
 
 footer {
+    position:fixed;
+    bottom:0px;
     padding: 10% 0;
     background-color:#266672;
-    font-size: .8rem;
     color:#fff;
     clear:both;
     width:100%;
