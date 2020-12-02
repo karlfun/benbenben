@@ -53,10 +53,12 @@ footer {
 
 
 
-@media (min-width: 400px) {
+@media (max-width: 400px) /* less than 400px wide */
+{
     nav ul li{display:block;}
     body{font-size:115%;}
 }
+
 @media (min-width: 850px) {
     
 }
