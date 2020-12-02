@@ -13,11 +13,12 @@ body {
 
 
 @media (min-width: 400px) {
-  .one-column { width: 90%; font-size: 75%; } 
+  .one-column { width: 90%; font-size: 115%; } 
+    nav ul li{display:block;}
     /*--.onethird{float:none;clear:both;} --*/
 }
 @media (min-width: 700px) {
-  .one-column { width: 80%; font-size: 90%; }
+  .one-column { width: 80%; font-size: 110%; }
 }
 @media (min-width: 850px) {
   .one-column { width: 70%; font-size: 100%; }
