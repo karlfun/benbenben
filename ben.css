@@ -8,12 +8,13 @@ body {
     color:#fff;
     padding:0px;
     margin:0px;
+    font-size:125%;
 }
 
 
 nav{
     font-size:1.2rem;
-    padding:0% 15%;
+    padding:0% 5%;
     margin:0;
     box-sizing: border-box;
 }
@@ -21,7 +22,7 @@ nav{
 #headline{
     width:100%;
     height:auto;
-    padding:0% 15%;
+    padding:0% 5%;
     margin:0;
     box-sizing: border-box;
 }
@@ -29,7 +30,7 @@ nav{
 #container{
     width:100%;
     min-height:350px;
-    padding:3em 15% 2em 15%;
+    padding:3em 5% 2em 5%;
     margin:0;
     background:#CFE7B0;
     color: #7D8172;
@@ -43,7 +44,7 @@ nav{
 footer {
     position:relative;
     bottom:0px;
-    padding:0% 15%;
+    padding:0% 5%;
     margin:0;
     background-color:#266672;
     color:#fff;
@@ -59,12 +60,13 @@ footer {
 /* -------- Media Queries -------- */
 
 
+/* default design assumes mobile. */
 
-
-@media (max-width: 500px) /* less than 500px wide */
+@media (min-width: 500px) /* more than 500px wide */
 {
-    nav ul li{display:block;}
-    body{font-size:125%;}
+    nav ul li{display:inline;}
+    body{font-size:100%;}
+    nav,#headline,#container,footer{padding:0% 25%;}
 }
 
 @media (min-width: 500px) {
@@ -90,7 +92,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: block;
     margin-right: 20px;
 }
 a {
