@@ -50,7 +50,7 @@ footer {
     color:#fff;
     clear:both;
     width:100%;
-    height:4rem;
+    height:6rem;
     box-sizing: border-box;
 }
 
@@ -64,9 +64,10 @@ footer {
 
 @media (min-width: 500px) /* more than 500px wide */
 {
-    nav ul li{display:inline;}
+    nav ul li{display:inline !important;}
     body{font-size:100%;}
-    nav,#headline,#container,footer{padding:0% 25%;}
+    nav,#headline,footer{padding:0% 25%;}
+    #container{padding:1.5rem 25%;}
 }
 
 @media (min-width: 500px) {
